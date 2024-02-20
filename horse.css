@@ -1,0 +1,327 @@
+@font-face {
+  font-family: whale;
+  src: url(fonts/vwhale.ttf);
+}
+
+@font-face {
+  font-family: smokum;
+  src: url(fonts/smokum.ttf);
+}
+
+@font-face {
+  font-family: western;
+  src: url(http://www.buffalobaileysranch.biz/fonts/western.otf);
+}
+
+@font-face {
+  font-family: western;
+  src: url(http://www.buffalobaileysranch.biz/fonts/westernital.otf);
+  font-style: italic;
+}
+
+body {
+    background-position: center;
+    background-color: white;
+    background-image: url("horseback.JPG");
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+    cursor: url('http://www.buffalobaileysranch.biz/hhcur.cur'), progress !important;
+    min-width: 1200px;
+}
+
+a:hover {
+  color: orange;
+}
+
+a img:hover {
+  opacity: 0.5;
+}
+
+#banner {
+    background-color: white;
+    margin: 2% 5%;
+    border-style: groove;
+    border-width: 20px;
+    border-color: #e70485;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    margin: 0% 5%;
+}
+
+.topnav a {
+    border-style: groove;
+    border-width: 20px;
+    border-color: #e70485;
+    float: left;
+    color: #e70485;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: western;
+    font-size: 35px;
+}
+
+.topnav a:hover {
+  background-color: #e70485;
+  color: white;
+}
+
+.topnav a.active {
+    background-color: #e70485;
+    color: white;
+}
+
+#comingsoon, #team, #frontpage{
+  background-color: white;
+  border-style: groove;
+  border-width: 20px;
+  border-color: #e70485;
+  margin: 5% 5% 2% 5%;
+  color: #e70485;
+  padding: 14px 16px;
+  font-family: western;
+  font-size: 40px;
+}
+
+#frontpage h1 {
+  color: brown;
+  font-family: whale;
+  font-weight: normal;
+  text-shadow: #e7e7e7 3px 5px 0,
+             #999 4px 6px 3px,
+             #ccc 8px 11px 10px;
+}
+
+#splash {
+  background-color: white;
+  border-style: groove;
+  border-width: 20px;
+  border-color: #e70485;
+  margin: 2% 5%;
+  color: #e70485;
+  padding: 14px 16px;
+}
+
+#quote {
+  background-color: white;
+  margin: 5% 10% 2% 10%;
+  padding: 2%;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #e70485;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#faq {
+  background-color: white;
+  border-style: groove;
+  border-width: 20px;
+  border-color: #e70485;
+  margin: 5% 5% 2% 5%;
+  color: #e70485;
+  padding: 14px 16px;
+  font-family: western;
+  font-size: 40px;
+}
+
+#splash img {
+  width: 100%;
+}
+
+
+#pics img {
+  width: 100%;
+}
+
+#showinfo {
+  background-color: white;
+  margin: 5% 5% 2% 5%;
+  border-style: groove;
+  border-width: 20px;
+  border-color: #e70485;
+  color: #e70485;
+  padding: 14px 16px;
+  font-family: western;
+  font-size: 40px;
+}
+
+#showinfo img {
+  border-style: groove;
+  border-width: 20px;
+  border-color: #e70485;
+}
+
+#pics {
+  background-color: white;
+  margin: 2% 5%;
+  border-style: groove;
+  border-width: 20px;
+  border-color: #e70485;
+  color: #e70485;
+  padding: 14px 16px;
+}
+
+.videowrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videowrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#teamhead{
+  background-color: white;
+  border-style: groove;
+  border-width: 20px;
+  border-color: #e70485;
+  margin: 5% 5% 2% 5%;
+  color: #e70485;
+  padding: 14px 16px;
+  font-family: western;
+  font-size: 40px;
+}
+
+#faqhead{
+  background-color: white;
+  border-style: groove;
+  border-width: 20px;
+  border-color: #e70485;
+  margin: 5% 5% 2% 5%;
+  color: #e70485;
+  padding: 30px 16px 0px;
+}
+
+#teamhead img {
+  width: 100%;
+}
+
+#faqhead img {
+  width: 80%;
+}
+
+#faqvid {
+  position: relative;
+ width: 100%;
+ height: 0;
+ padding-bottom: 56.25%;
+}
+
+#faqvid iframe {
+  position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+#team img {
+  width: 100%;
+}
+
+.picwrapper{
+  float:left;
+  position:relative;
+}
+
+.picwrapper_heads {
+  float:left;
+  position:relative;
+  width:40%;
+  margin: 0% 2% 0% 0%;
+}
+
+.picdesc {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background: black;
+  color: white;
+  opacity:0.6;
+  filter:alpha(opacity=60);
+  font-family: 'tahoma';
+  font-size: 20px;
+  display: none;
+}
+
+.picwrapper:hover .picdesc{
+  display: block;
+}
+
+.picwrapper_heads:hover .picdesc{
+  display: block;
+}
+
+.picdesc_content {
+ padding:10px;
+ margin:0px;
+ text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+
+  .topnav a {
+    font-size: 30px;
+    border-width: 10px;
+    padding: 4px 6px;
+  }
+
+  #quote {
+    font-size: 20px;
+  }
+
+  #comingsoon, #team, #frontpage, #teamhead, #showinfo, #faq, #splash, #pics {
+    font-size: 30px;
+    margin: 2% 2% 1% 2%;
+    border-width: 10px;
+    padding: 4px 6px;
+  }
+
+  #faqhead {
+    border-width: 10px;
+    margin: 2% 2% 1% 2%;
+    padding: 10px 3px 0px;
+  }
+
+  #banner {
+    border-width: 10px;
+  }
+
+body {
+  min-width: 0px;
+  background-size: 75%;
+}
+
+figure {
+    -webkit-margin-start: 5px;
+    -webkit-margin-end: 5px;
+    font-size: 30px;
+}
+
+.picwrapper_heads {
+  width: 100%;
+}
+
+#frontpage h1 {
+ font-size: 46px;
+}
+
+.picdesc {
+  font-size: 15px;
+}
+
+.picdesc_content {
+ padding:5px;
+}
+}
